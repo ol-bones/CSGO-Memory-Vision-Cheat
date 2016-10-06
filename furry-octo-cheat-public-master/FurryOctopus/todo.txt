@@ -1,0 +1,15 @@
+Jo
+- Add signing to main application
+
+Owen
+
+General Ideas
+Security
+Either
+	1.
+	- Side-by-side verification on load
+	- Or client checksum authentication
+	2.
+	- Two-factor hash authentication
+Or
+	- Loading random classes at run time

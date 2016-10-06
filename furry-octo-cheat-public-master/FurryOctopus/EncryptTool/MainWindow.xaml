@@ -1,0 +1,15 @@
+﻿<Window x:Class="EncryptTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="EncryptTool" Height="183.94" Width="520.493" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="stringBox" Height="23" Margin="78,31,122,0" TextWrapping="NoWrap"  VerticalAlignment="Top" TextChanged="stringBox_TextChanged"/>
+        <TextBox x:Name="keyBox" IsReadOnly="True" Height="23" Margin="78,66,122,0" TextWrapping="NoWrap" VerticalAlignment="Top" Background="#FFE4E4E4" Text="d3ixrNuVTMJrqmwpflG9PrUJdsb1zh43gYrVfftT"/>
+        <Label Content="String" HorizontalAlignment="Left" Margin="22,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.428,-0.509"/>
+        <Label Content="Key" HorizontalAlignment="Left" Margin="22,63,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.428,-0.509"/>
+        <Button x:Name="copyButton" Content="Copy" Margin="0,110,27,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" Click="copyButton_Click"/>
+        <TextBox x:Name="cipherBox" IsReadOnly="True" Height="23" Margin="78,110,122,0" TextWrapping="NoWrap" VerticalAlignment="Top" Background="#FFC3C3C3"/>
+        <Label Content="Cipher" HorizontalAlignment="Left" Margin="22,107,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.428,-0.509"/>
+
+    </Grid>
+</Window>

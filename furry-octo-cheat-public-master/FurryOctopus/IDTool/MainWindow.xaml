@@ -1,0 +1,13 @@
+﻿<Window x:Class="BuildTool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BuildTool" Height="154.785" Width="244.307" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,2,1">
+        <TextBox x:Name="idBox" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <Button x:Name="generateButton" Content="Generate" HorizontalAlignment="Left" Margin="148,41,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="generateButton_Click"/>
+        <Label Content="Program ID" HorizontalAlignment="Left" Margin="8,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="applyButton" Content="Apply" HorizontalAlignment="Left" Margin="68,85,0,0" VerticalAlignment="Top" Width="75" Click="applyButton_Click"/>
+        <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="148,85,0,0" VerticalAlignment="Top" Width="75" Click="cancelButton_Click"/>
+
+    </Grid>
+</Window>
